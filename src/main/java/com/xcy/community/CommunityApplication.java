@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CommunityApplication {
 
     public static void main(String[] args) {
-        //for pull
+        //for push
         SpringApplication.run(CommunityApplication.class, args);
     }
 
