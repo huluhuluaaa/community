@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CommunityApplication {
 
     public static void main(String[] args) {
-        //<_._>
+        //<_..._>
         SpringApplication.run(CommunityApplication.class, args);
     }
 
