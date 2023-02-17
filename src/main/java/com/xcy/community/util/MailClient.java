@@ -27,8 +27,8 @@ public class MailClient {
             MimeMessageHelper helper = new MimeMessageHelper(message);
             helper.setFrom(from);
             helper.setTo(to);
-            helper.setCc(cc);
-            helper.setBcc(bcc);
+//            helper.setCc(cc);
+//            helper.setBcc(bcc);
             helper.setSubject(subject);
             helper.setText(content, true);
             mailSender.send(helper.getMimeMessage());
